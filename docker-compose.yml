@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  api-tests:
+    container_name: api-tests
+    image: api-tests
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command:
+      - test
+    ports:
+      - '8081:8081'

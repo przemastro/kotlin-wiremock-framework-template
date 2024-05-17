@@ -1,0 +1,11 @@
+test:
+  host: ""
+dev:
+  host: ""
+local:
+  host: "http://localhost:8080/api/v1"
+  wiremock_host: "http://localhost:8081/api/v1"
+  mocked_endpoints:
+    - "/some/lovely/endpoint"
+  db_host: "localhost"
+  db_port: "5432"
