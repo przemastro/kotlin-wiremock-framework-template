@@ -1,6 +1,5 @@
-# kotlin-wiremock
+# kotlin-wiremock-docker
 
-# restassured-kotlin-template
 ![Java version](https://img.shields.io/badge/Java-1.11-%23b07219)
 
 # Installation
